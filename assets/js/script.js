@@ -1,6 +1,6 @@
 //ALERTA ENVIAR MENSAJE EN FORMULARIO
 
-document.getElementById('mensaje', 'mensaje-texto', 'email', 'nombre').onclick = function () {
+document.getElementById('mensaje').onclick = function () {
     alert('Tu mensaje fue enviado correctamente.');
 }
 

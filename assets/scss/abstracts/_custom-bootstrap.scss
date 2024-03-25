@@ -1,0 +1,10 @@
+// Add a custom color to $theme-colors
+$custom-colors: (
+    "custom-primary": #008DDA,
+    "custom-secondary": #41C9E2,
+    "custom-bblue": #ACE2E1,
+    "custom-beige": #F7EEDD,
+    "custom-dgrey": #2C3333,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);

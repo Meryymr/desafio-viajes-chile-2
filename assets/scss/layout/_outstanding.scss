@@ -1,0 +1,13 @@
+.outstanding {
+
+    &__title {
+        border-bottom: 1px solid white;
+    }
+}
+
+.card {
+
+    &__image {
+        object-fit: contain;
+    }
+}

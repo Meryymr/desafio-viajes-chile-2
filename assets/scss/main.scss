@@ -1,0 +1,18 @@
+//Required
+@import '../../node_modules/bootstrap/scss/functions';
+@import '../../node_modules/bootstrap/scss/variables';
+@import '../../node_modules/bootstrap/scss/variables-dark';
+
+//1. Abstracts
+@import 'abstracts/variables', 'abstracts/custom-bootstrap';
+
+//2. Vendors 
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+//3. Base
+@import 'base/reset', 'base/typography', 'base/base';
+//4. Layout 
+@import 'layout/navbar', 'layout/main', 'layout/outstanding', 'layout/testimony', 'layout/contact';
+//5. Components
+@import 'components/buttons', 'components/carousel';
+//6. Pages 
+//7. Themes

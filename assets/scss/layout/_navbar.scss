@@ -1,0 +1,14 @@
+.navbar {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: $color5;
+    }
+
+    &__img {
+        height: 35px;
+        width: 35px;
+        padding-right: 5px;
+    }
+}

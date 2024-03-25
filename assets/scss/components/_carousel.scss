@@ -1,0 +1,22 @@
+#carouselExampleIndicators .carousel-item img {
+    height: 300px;
+
+}
+
+@media (min-width: 992px) {
+    #carouselExampleIndicators .carousel-item img {
+        height: 500px;
+    }
+}
+
+#carouselExampleIndicators .image1 {
+    object-position: center;
+}
+
+#carouselExampleIndicators .image2 {
+    object-position: top;
+}
+
+#carouselExampleIndicators .image3 {
+    object-position: top;
+}
